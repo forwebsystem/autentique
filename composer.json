@@ -1,0 +1,41 @@
+{
+    "name": "forwebsystem/autentique",
+    "description": ":package_description",
+    "license": "license",
+    "authors": [
+        {
+            "name": "author name",
+            "email": "author email",
+            "homepage": "author homepage"
+        }
+    ],
+    "homepage": "https://github.com/forwebsystem/autentique",
+    "keywords": ["Laravel", "Autentique"],
+    "require": {
+        "illuminate/support": "~7|~8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~5|~6"
+    },
+    "autoload": {
+        "psr-4": {
+            "ForWebSystem\\Autentique\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ForWebSystem\\Autentique\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ForWebSystem\\Autentique\\AutentiqueServiceProvider"
+            ],
+            "aliases": {
+                "Autentique": "ForWebSystem\\Autentique\\Facades\\Autentique"
+            }
+        }
+    }
+}
