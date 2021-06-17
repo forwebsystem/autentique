@@ -1,16 +1,16 @@
 {
     "name": "forwebsystem/autentique",
-    "description": ":package_description",
-    "license": "license",
+    "description": ":SDK para comunicação para autenticação com o serviço de assinatura de documentos digitalmente",
+    "license": "MIT",
     "authors": [
         {
-            "name": "author name",
-            "email": "author email",
-            "homepage": "author homepage"
+            "name": "Joao Paulo P Villela",
+            "email": "joaopaulo@forwebsystem.com.br",
+            "homepage": "http://forwebsystem.com.br"
         }
     ],
     "homepage": "https://github.com/forwebsystem/autentique",
-    "keywords": ["Laravel", "Autentique"],
+    "keywords": ["Laravel", "Autentique", "Assinatura digital"],
     "require": {
         "illuminate/support": "~7|~8"
     },
